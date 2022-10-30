@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1667164650",
+        "python_version": "3.7.13 (default, Oct 18 2022, 13:40:53) \n[Clang 12.0.0 ]",
+        "command_line_arguments": "/opt/anaconda3/envs/ml-snake/bin/mlagents-learn Snake.yaml --time-scale=2 --capture-frame-rate=0 --target-frame-rate=-1 --run-id=ASD6",
+        "mlagents_version": "0.28.0",
+        "mlagents_envs_version": "0.28.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.7.1",
+        "numpy_version": "1.21.6",
+        "end_time_seconds": "1667164656"
+    },
+    "total": 6.0805219169999996,
+    "count": 1,
+    "self": 0.01894058300000001,
+    "children": {
+        "run_training.setup": {
+            "total": 0.014180416999999945,
+            "count": 1,
+            "self": 0.014180416999999945
+        },
+        "TrainerController.start_learning": {
+            "total": 6.047400917,
+            "count": 1,
+            "self": 0.0003433330000000012,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 6.046865167,
+                    "count": 1,
+                    "self": 6.046865167
+                },
+                "TrainerController._save_models": {
+                    "total": 0.0001924170000000558,
+                    "count": 1,
+                    "self": 0.0001924170000000558
+                }
+            }
+        }
+    }
+}

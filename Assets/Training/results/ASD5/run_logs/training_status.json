@@ -1,0 +1,29 @@
+{
+    "SnakeModel": {
+        "checkpoints": [
+            {
+                "steps": 1908,
+                "file_path": "results/ASD5/SnakeModel/SnakeModel-1908.onnx",
+                "reward": -85.20318027819322,
+                "creation_time": 1667164548.5116649,
+                "auxillary_file_paths": [
+                    "results/ASD5/SnakeModel/SnakeModel-1908.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1908,
+            "file_path": "results/ASD5/SnakeModel.onnx",
+            "reward": -85.20318027819322,
+            "creation_time": 1667164548.5116649,
+            "auxillary_file_paths": [
+                "results/ASD5/SnakeModel/SnakeModel-1908.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.7.1"
+    }
+}
